@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+}
+
+
+#menu {
+    background: #f3f3f3 ;
+    height: 5vh;
+    display: grid;
+    place-items: center;
+}
+
+#strona {
+    display: grid;
+    place-items: center;
+    min-height: 95vh;
+    background: #95a613;
+}
+
+#kolor {
+    
+    display: grid;
+    place-items: center;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.opis {
+    background: black;
+
+    padding: 15px;
+    border: 3px solid black;
+    color: white;
+    border-radius: 10px;
+}
+
+.tytulStrony {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #95a613;
+}
+
+#guzik {
+    background: white;
+    margin-top: 4rem;
+    font-size: 2rem;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px;
+    border: 3px solid black;
+    border-radius: 5px;;
+}
+#guzik:hover {
+    background: #000000;
+    color: rgb(230, 230, 230);
+}
